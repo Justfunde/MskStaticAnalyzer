@@ -1,0 +1,5 @@
+
+*.log
+.vs/
+MskStaticAnalyzer/x64/
+x64/
