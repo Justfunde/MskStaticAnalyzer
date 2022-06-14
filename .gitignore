@@ -3,3 +3,5 @@
 .vs/
 MskStaticAnalyzer/x64/
 x64/
+Debug/
+MskStaticAnalyzer/Debug/
