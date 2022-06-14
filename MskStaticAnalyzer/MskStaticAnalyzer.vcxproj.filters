@@ -13,5 +13,48 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="MskStaticAnalyzer">
+      <UniqueIdentifier>{74b98f44-ef97-4e54-aeac-a585a897571f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrettyTable">
+      <UniqueIdentifier>{f819a536-8c8d-42ce-8ec0-b4ffd48c840b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LayoutReader">
+      <UniqueIdentifier>{4ef82b2b-ab10-4d96-84ec-dbef6220b1a8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PrettyTable.cpp">
+      <Filter>PrettyTable</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="LayoutReader_MSK.cpp">
+      <Filter>LayoutReader</Filter>
+    </ClCompile>
+    <ClCompile Include="LayoutReader.cpp">
+      <Filter>LayoutReader</Filter>
+    </ClCompile>
+    <ClCompile Include="MskStaticAnalyzer.cpp">
+      <Filter>MskStaticAnalyzer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PrettyTable.hpp">
+      <Filter>PrettyTable</Filter>
+    </ClInclude>
+    <ClInclude Include="LayoutReader_MSK.hpp">
+      <Filter>LayoutReader</Filter>
+    </ClInclude>
+    <ClInclude Include="LayoutData.hpp">
+      <Filter>LayoutReader</Filter>
+    </ClInclude>
+    <ClInclude Include="LayoutReader.hpp">
+      <Filter>LayoutReader</Filter>
+    </ClInclude>
+    <ClInclude Include="MskStaticAnalyzer.hpp">
+      <Filter>MskStaticAnalyzer</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
