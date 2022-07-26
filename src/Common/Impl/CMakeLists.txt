@@ -1,0 +1,6 @@
+SET(CURRENT_TARGETS)
+
+add_subdirectory(LayoutReader)
+add_subdirectory(LayoutReaderMsk)
+add_subdirectory(MskStaticAnalyzer)
+add_subdirectory(PrettyTable)
